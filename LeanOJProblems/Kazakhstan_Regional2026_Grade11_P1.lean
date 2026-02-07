@@ -1,6 +1,6 @@
 import Mathlib.Data.Real.Basic
 
-def P (f : ℝ → ℝ) := ∀ x y, f (f x + x - y) + f (x - y) = f (x * f y - y)
+def P (f : ℝ → ℝ) := ∀ x y, f (f y + x - y) + f (x - y) = f (x * f y - y)
 
 def answer : Set (ℝ → ℝ) := sorry
 
